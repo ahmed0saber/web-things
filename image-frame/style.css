@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #c0c6ff;
+    filter: drop-shadow(0 0 1px #0005) drop-shadow(0 0 1px #0005);
+    -webkit-filter: drop-shadow(0 0 1px #0005) drop-shadow(0 0 1px #0005);
+}
+img {
+        --r: 5px;
+        padding: calc(2*var(--r));
+        margin: 20px auto;
+        background:
+            radial-gradient(var(--r),#0000 98%,#fff) round
+            calc(-1.5*var(--r)) calc(-1.5*var(--r)) /calc(3*var(--r)) calc(3*var(--r)),
+            linear-gradient(#fff 0 0)  no-repeat
+            50%/calc(100% - 3*var(--r)) calc(100% - 3*var(--r));
+        filter: grayscale(0.2);
+        -webkit-filter: grayscale(0.2);
+}
