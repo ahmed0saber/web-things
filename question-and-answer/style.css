@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+body{
+    padding: 10px;
+    background-color: #e3e3e3;
+}
+div{
+    margin: 20px 0;
+}
+a{
+    text-decoration: none;
+    padding: 8px 24px;
+    background-color: #b3c3e3;
+    color: #080808;
+    font-size: 16px;
+}
+a:hover{
+    opacity: 0.8;
+}
+a:active{
+    color: #e3e3e3;
+    background-color: #080808;
+}
+.answer{
+    opacity: 0;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: #f7f7f7;
+    transition-duration: 0.4s;
+}
+.answer:target{
+    opacity: 1;
+}
+h2{
+    color: #080808;
+}
+p{
+    color: #080808;
+    font-size: 15px;
+}
