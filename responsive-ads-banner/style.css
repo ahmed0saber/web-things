@@ -9,6 +9,7 @@
 .looping{
     max-width: 100%;
     overflow-x: hidden;
+    background: #364B70;
 }
 .img-container{
     background-repeat: no-repeat;
